@@ -13,7 +13,7 @@ public class Util {
         Connection connection = null;
 
         try {
-             connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/userdb", "root", "SoStrong#256");
+             connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/firstdb", "postgres", "root");
 
         } catch (SQLException e) {
             e.printStackTrace();
